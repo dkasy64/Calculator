@@ -1,7 +1,13 @@
+import java.util.Scanner;
 public class Calculator {
 
     public static void main(String[] args){
-        System.out.println("This is a calculator file");
-        System.out.println("This is another change");
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter two whole numbers");
+        int x = scan.nextInt();
+        int y = scan.nextInt();
+
+        System.out.println(y+x);
     }
 }
