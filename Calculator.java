@@ -5,11 +5,11 @@ public class Calculator {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter two whole numbers");
-        int x = scan.nextInt();
-        int y = scan.nextInt();
+        double x = scan.nextInt();
+        double y = scan.nextInt();
         
         System.out.println("Type 1 to perform addition\nType 2 to perform subtraction\nType 3 to perform multiplication\nType 4 to perform division");
-        int operation = scan.nextInt();
+        double operation = scan.nextInt();
         
         if(operation == 1){
             System.out.println(x+y);
